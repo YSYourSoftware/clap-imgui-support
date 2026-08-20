@@ -1,5 +1,6 @@
 //
 // Created by Paul Walker on 7/13/22.
+// Modified by GloriousGlider8 on 20/08/2026 (DD/MM/YYYY).
 //
 
 #ifndef CLAP_SAW_DEMO_IMGUI_IMGUI_CLAP_EDITOR_H
@@ -26,5 +27,6 @@ void imgui_clap_guiDestroyWith(imgui_clap_editor *,
 bool imgui_clap_guiSetParentWith(imgui_clap_editor *,
                                  const clap_window *);
 bool imgui_clap_guiSetSizeWith(imgui_clap_editor *, int width, int height);
+bool imgui_clap_guiSetWindowTitleWith(imgui_clap_editor *, const char *title);
 
 #endif // CLAP_SAW_DEMO_IMGUI_IMGUI_CLAP_EDITOR_H
